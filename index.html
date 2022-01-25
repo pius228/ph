@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ЭВАКУАТОР 24/7</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+    </head>
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-2">
+                <a href="" class="logo">
+                    <img src="img/Логотип.png" alt="ЭВАКУАТОР logo">
+                </a>
+            </div>
+                <div class="offset-lg-1 col-lg-6">
+                    <nav>
+                        <ul class="menu d-flex">
+                            <li class="menu__item menu_active">
+                                <a href="">   
+                                    Онлайн заказ
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Порядок работы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                        <ul class="nav-mobile-modal" id="navigation" style="display: none;">
+                            <li class="menu__item menu_active">
+                                <a href="">   
+                                    Онлайн заказ
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Порядок работы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="">
+                                    Контакты
+                                </a>
+                            </li>
+                          </ul>
+                          <button class="burger" type="button">
+                            <img src="img/burger.svg" alt="">
+                        </button> 
+                </div>
+                <div class="col-lg-3">
+                    <a class="phone" href="tel:79991233322"><img class="phone-img" src="img/phone.svg" alt="">+7(999) 123-33-22
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="head" id="head">
+            <div class="container">
+                <div class="headeritem">
+                    <h1 class="headeritem__title">
+                        СЛУЖБА<br> ЭВАКУАЦИИ АВТОМОБИЛЕЙ
+                    </h1>
+                    <a href="" class="butn headeritem__btn">Вызвать эвакуатор</a>
+                    <p class="headeritem__text">
+                        Наши специалиста готовы помочь вам даже в самый безнадежной ситуации на дороге.
+                    </p>
+                </div>
+                <div class="acivment d-md-flex justify-content-between">
+                    <div class="acivment__offer d-flex align-items-center">
+                        <img src="img/fast.svg" alt="">
+                        <span class="acivment__text">
+                            Быстрая<br> подача
+                        </span>
+                    </div>
+                    <div class="acivment__offer d-flex align-items-center">
+                        <img src="img/place.svg" alt="">
+                        <span class="acivment__text">
+                            Работаем по <br> всей Россей 
+                        </span>
+                    </div>
+                    <div class="acivment__offer d-flex align-items-center">
+                        <img src="img/always.svg" alt="">
+                        <span class="acivment__text">
+                            Круглосуточная<br> поддержка
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="calculation-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="calculation">
+                            <h3 class="calculation__title">
+                                Онлайн-калькулятор
+                            </h3>
+                            <div class="d-flex align">
+                                <span class="type">
+                                    Тип авто:
+                                </span>
+                                <div class="width">
+                                <form class="">
+                                    <div>
+                                      <input type="radio" id="contactChoice1"
+                                       name="contact">
+                                      <label class="radio__text" for="contactChoice1">Мотоцикл</label>
+                                      <input type="radio" id="contactChoice1"
+                                      name="contact">
+                                     <label class="radio__text" for="contactChoice1">Внедорожник</label>
+                                     <br>
+                                     <input type="radio" id="contactChoice1"
+                                     name="contact">
+                                    <label class="radio__text" for="contactChoice1">Легковая</label>
+                                    <input class="left" type="radio" id="contactChoice1"
+                                    name="contact">
+                                   <label class="radio__text" for="contactChoice1">Микроавтобус</label>
+                                   <br>
+                                   <input type="radio" id="contactChoice1"
+                                   name="contact">
+                                  <label class="radio__text" for="contactChoice1">Малолитражная</label>
+                                    </div>
+                                  </form>
+                                </div>
+                            </div>
+                            <span class="type type_second">
+                                Заблокированные колеса:
+                            </span>
+                            <form class="">
+                                <div>
+                                  <input type="radio" id="contactChoice1"
+                                   name="contact">
+                                  <label class="radio__text radio__text_bottom" for="contactChoice1">Нет</label>
+                                  <input type="radio" id="contactChoice1"
+                                  name="contact">
+                                 <label class="radio__text radio__text_bottom" for="contactChoice1">1</label>
+
+                                 <input type="radio" id="contactChoice1"
+                                 name="contact">
+                                <label class="radio__text radio__text_bottom" for="contactChoice1">2</label>
+                                <input class="left" type="radio" id="contactChoice1"
+                                name="contact">
+                               <label class="radio__text radio__text_bottom" for="contactChoice1">3</label>
+                               <input type="radio" id="contactChoice1"
+                               name="contact">
+                              <label class="radio__text radio__text_bottom" for="contactChoice1">4</label>
+                                </div>
+                              </form>
+                              <div class="d-flex wheel align-items-center">
+                                <span class="type type_second">
+                                    Руль заблокирован:
+                                </span>
+                                <input class="check"type="checkbox">
+                              </div>
+                              <div class="d-sm-flex wheel align-items-center">
+                                <span class="type type_second">
+                                    Руль заблокирован:
+                                </span>
+                                <select class="engine" name="engine" id="engine">
+                                    <option value="0">За город 10 км</option>
+                                    <option value="10">За город 20 км</option>
+                                </select>
+                              </div>
+                              <div class="d-sm-flex wheel align-items-center">
+                                <span class="type type_second">
+                                    Телефон:
+                                </span>
+                                <input class="number_style" value="+7" type="tel">
+                              </div>
+                              <span class="type type_third">
+                                Стоимость составит:
+                            </span>
+                            <p class="price">Стоимость составит = <span class="big">3000</span>рублей</p>
+                            <a href="" class="butn cal-btn">
+                                Вызвать эвакуатор
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="offer">
+                            <h2 class="offer__title">
+                                Эвакуаторы в Москве
+                            </h2>
+                            <p class="offer__text">
+                                Эвакуатор в Москве- ожидание не более 25 минут. В нашем автопарке 5
+                                надежных эвакуаторов, которорые дежурят во все районах Москвы. Хотите
+                                вопользоваться услугами эвакуатора дешево - можете рассчитывать на нас.
+                                Мы не просто предоставляем эвакуатор дешево в Москве , а делаем это на
+                                высоком профессиональном уровне.
+                            </p>
+                            <p class="offer__text">
+                                Воспользоваться услугами фирмы можно в случаях дорожно-транспортного
+происшествия, сбоя в электронике авто, блокировке колес ходовой или 
+трансмиссии, разряженном аккумуляторе, пробитом колесе или для 
+вынужденной транспортировки машины. Эвакуатор экстренно прибудет 
+к месту поломки в любую погоду..
+
+Чтобы эвакуатор приехал максимально быстро не забудьте сообщить 
+перевозчику точное местоположение ТС и нужный тип эвакуатора. 
+Для корректного подсчета стоимости перевозки удаленность от города 
+и точное местоположение выгрузки 
+автомобиля. Учтите, что стандартная универсальная длинна эвакуатора
+составляет 5 метров, ширина 2 метра. Вылет частей автомобиля за пределы 
+платформы не должен составлять 0,5 метров иначе авто может быть 
+поврежден потребуется страхование. Для безопасности транспортировки 
+сообщайте оператору точные габариты автомобиля.
+                            </p>
+                            <p class="offer__text">
+                                Каждый эвакуатор оснащен системами Глонас и GPS, это позволяет: 
+экономить топливо, рассчитывать оптимальную длину пробега на маршруте 
+и предусмотреть каждую мелочь (например, заезд по другому адресу). 
+Это также позволяет заказать эвакуатор недорого и сократить 
+до минимума время ожидания и разгрузки. Наши квалифицированные 
+сотрудники недаром заслужили хорошую репутацию. 
+Они решат любую нестандартную ситуацию: 
+опрокидывание автомобиля на крышу, съезд с дороги за бордюр 
+и эвакуацию из других труднодоступных мест.
+                            </p>
+                            <p class="offer__text">
+                                Для особо сложных случаев у нас есть специнвентарь: специализированные 
+подкатные тележки, крюки, эвакуаторы с модифицированными платформами 
+позволяющие поставить перевернутые автомобили на колеса, 
+загрузить машины с автоматической коробкой передач 
+(буксировкой транспортировать их запрещено) 
+и заниженной посадкой. Есть автогидроманипулятор и автомобили с прямой 
+и ломаной платформой.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="earth">
+            <div class="container">
+                <h2 class="earth__title">
+                    Виды эвакуаторов
+                </h2>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img class="swiper-fs" src="img/car1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/car2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/car3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                  <a href="" class="butn earth__btn">Вызвать эвакуатор</a>
+            </div>
+        </section>
+        <section class="com">
+            <div class="container">
+                <div class="communication d-md-flex align-items-center">
+                    <div class="">
+                    <h3 class="communication__title">
+                        Срочно вызвать эвакуатор
+                    </h3>
+                    <form class="communication__form" action="">
+                        <input placeholder="Введите Имя" title="Введите Имя" class="communication__input"type="text" name="" id="">
+                        <input value="+7" class="communication__input"type="tel">
+                        <button type="submit" class="communication__btn butn">Оставить заявку</button>
+                    </form>
+                    </div>
+                    <p class="when">
+                        Наш консультант свяжится с Вами в течении 10 минут
+                    </p>
+                    <img class="communication__img" src="img/girl.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="earth">
+            <div class="container">
+                <h2 class="earth__title">
+                    Парк эвакуаторов и машин технической помощи
+                </h2>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img class="swiper-fs" src="img/car4.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/car5.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/car6.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="left">
+                        <a href="" class="logo logo-footer">
+                            <img src="img/logo.svg" alt="ЭВАКУАТОР logo">
+                        </a>
+                        <p class="footer__text">
+                            Круглосуточная служба эвакуации
+                        </p>
+                        <span class="date">
+                            2002-2022
+                        </span>
+                    </div>
+                    <div class="right">
+                        <a class="phone phone__footer" href="tel:79991233322"><img class="phone-img" src="img/phone.svg" alt="">+7(999) 123-33-22
+                        </a>
+                        <span class="city">
+                            г. Москва
+                        </span>
+                        <div class="socail d-sm-flex justify-content-between">
+                            <a href="" class="socail__btn">
+                                <img src="img/telegram.png" alt="">
+                            </a>
+                            <a href="" class="socail__btn">
+                                <img src="img/vk.png" alt="">
+                            </a>
+                            <a href="" class="socail__btn">
+                                <img src="img/ig.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/main.js"></script>
+</body>
+</html>
